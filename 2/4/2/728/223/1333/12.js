@@ -1,4 +1,5 @@
 {
+  "apikey": "BrunoSobrino",
   "await": "*جاري التحميل 😐 .....*\n\nتابع صفحتنا في الفيس للمزيد :\nhttps://www.facebook.com/profile.php?id=100090780515885",
   "aerror": "*عذراً هناك خطأ*\n\nاعلمنا على صفحتنا اذا استمر نفس الخطأ:\nhttps://www.facebook.com/profile.php?id=100090780515885",
   "apackname": "Sticker by",
