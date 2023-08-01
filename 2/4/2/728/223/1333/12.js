@@ -5,7 +5,7 @@
   "aauthor": "© Morocco OpenAI",
   "apackname": "Sticker by",
   "alwasf": "أنا إيفل، روبوت الدردشة الودود الخاص بك. أنا هنا لمساعدتك في الإجابة على الأسئلة، وتلخيص النصوص، أو إنشاء القصائد. أقبل فقط المدخلات النصية.",
-  "Modeai": 400,
+  "Modeai": 200,
   "Modeai2": 400,
   "abotname": "Morocco OpemAI Bot",
     "alink": "https://chat.whatsapp.com/E4NLZ6Tvi8x1B243xNUwEY",
