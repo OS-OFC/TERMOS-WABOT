@@ -7,6 +7,7 @@
   "alwasf": "أنا إيفل، روبوت الدردشة الودود الخاص بك. أنا هنا لمساعدتك في الإجابة على الأسئلة، وتلخيص النصوص، أو إنشاء القصائد. أقبل فقط المدخلات النصية.",
   "Modeai": 200,
   "Modeai2": 400,
+  "Msganim": "*انتظر قليلا ، قد يستغرق بعض الوقت* ......... \nشاهد هذا الفيديو اذا كنت تريد صنع مثل هذا البوت_:link",
   "abotname": "Morocco OpemAI Bot",
     "alink": "https://chat.whatsapp.com/E4NLZ6Tvi8x1B243xNUwEY",
     "alinkk": "https://chat.whatsapp.com/JGpujaFE8If8nAHcaM0O5z",
