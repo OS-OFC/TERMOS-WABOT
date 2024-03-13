@@ -1,1 +1,1 @@
-[{https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg,https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg,https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg,https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg}]
+{"https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg","https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg","https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg","https://telegra.ph/file/3a4cd2e2d86cac6805abb.jpg"}
