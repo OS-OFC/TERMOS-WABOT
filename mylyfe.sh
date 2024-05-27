@@ -119,4 +119,4 @@ if [ -n "$SESSION_ID" ]; then
 fi
 
 echo -e "\e[33mStarting the bot...\e[0m"
-pm2 start index.js --name "$BOT_NAME" --attach
+pm2 start . --attach --name levanter
