@@ -6,7 +6,6 @@ if ! [ -x "$(command -v apt)" ]; then
     exit 1
 fi
 
-# Set non-interactive frontend for automated installations
 export DEBIAN_FRONTEND=noninteractive
 
 # Function to determine if sudo is required
@@ -14,7 +13,6 @@ may_need_sudo() {
     [[ $EUID -ne 0 ]] && echo "sudo"
 }
 
-# Assign sudo command if necessary
 SUDO=$(may_need_sudo)
 
 # Verify sudo access
@@ -30,7 +28,7 @@ echo -e "\e[33mUpdating system packages...\e[0m"
 $SUDO apt update -y
 
 # Install required packages
-for pkg in git ffmpeg curl; do
+for pkg in ffmpeg curl; do
     command -v $pkg &> /dev/null || $SUDO apt -y install $pkg
 done
 
@@ -69,6 +67,10 @@ else
     echo -e "\e[32mPM2 is already installed.\e[0m"
 fi
 
-# Start the current repository using PM2
+# Install dependencies from package.json
+echo -e "\e[33mInstalling dependencies with Yarn...\e[0m"
+yarn install --network-concurrency 1 &>/dev/null
+
+# Start the application using PM2
 echo -e "\e[33mStarting the bot...\e[0m"
-pm2 start index.js --attach
+pm2 start index.js --name my-bot
