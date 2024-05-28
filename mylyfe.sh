@@ -73,4 +73,4 @@ yarn install --network-concurrency 1 &>/dev/null
 
 # Start the application using PM2
 echo -e "\e[33mStarting the bot...\e[0m"
-pm2 start index.js --name my-bot
+pm2 start . --attach --name levanter
